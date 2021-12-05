@@ -22,7 +22,7 @@ SPA with possibility for search flight details by flight-id or city name .
 
 #### Technologies
 
-- React-router
+- [React-router](https://v5.reactrouter.com)
 - Redux
 - redux-thunk
 - qs library
