@@ -1,14 +1,13 @@
 # Airport board
 
-![Project image](project-img-url)
-
->Short Project Blurb
+[Project Link](https://61ad083829f491537208506f--airport-board.netlify.app/)
 
 ---
 
 ### Table of Contents
 
 - [Description](#description)
+- [Technologies](#technologies)
 - [How To Use](#how-to-use)
 - [References](#references)
 - [License](#license)
