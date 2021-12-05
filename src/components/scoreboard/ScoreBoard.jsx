@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import Options from '../options/Options.jsx';
-import Table from '../table/Table.jsx';
+import Options from '../options/Options';
+import Table from '../table/Table';
 import FlightsNotFound from '../flightsNotFound/FlightsNotFound';
 
 import './scoreboard.scss';

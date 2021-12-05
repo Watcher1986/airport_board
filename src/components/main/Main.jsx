@@ -3,8 +3,8 @@ import { connect } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-import Search from '../search/Search.jsx';
-import Scoreboard from '../scoreboard/Scoreboard.jsx';
+import Search from '../search/Search';
+import Scoreboard from '../scoreboard/ScoreBoard';
 
 import { flightsListSelector, inputValueSelector } from '../../flights/flights.selectors';
 import * as flightsActions from '../../flights/flights.actions';
