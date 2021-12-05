@@ -1,6 +1,9 @@
 # Airport board
 
-[Project Link](https://61ad083829f491537208506f--airport-board.netlify.app/)
+
+## [Project Link](https://61ad083829f491537208506f--airport-board.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b7923abc-7fe8-4438-8bb9-64ae9bf90941/deploy-status)](https://app.netlify.com/sites/google-calendar-react/deploys)
 
 ---
 
