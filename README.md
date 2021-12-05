@@ -14,7 +14,7 @@
 - [License](#license)
 - [Author Info](#author-info)
 
-[Back To The Top](#project-name)
+[Back To The Top](#airport-board)
 
 ---
 
@@ -38,7 +38,7 @@ SPA with possibility for search flight details by flight-id or city name .
 - [SASS (SCSS)](https://sass-lang.com/)
 - [BEM methodology](https://en.bem.info/methodology/)
 
-[Back To The Top](#project-name)
+[Back To The Top](#airport-board)
 
 ---
 
