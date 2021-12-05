@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import './search.scss';
 
 const Search = ({ inputValueChanged, value }) => {
-  const onChange = event => {
-    inputValueChanged(event.target.value);
+  const onChange = e => {
+    inputValueChanged(e.target.value);
   };
 
   return (

@@ -45,3 +45,11 @@ export function convertDataBody(flights, pathType, search) {
     ? flightsToday
     : flightsToday.filter(({ city, flightCode }) => compareSearch(city, flightCode, search));
 }
+
+export const getStatusText = (pathType, shedule, status) => {
+  if (!pathType || pathType === 'departures') {
+    return `Вилетів о ${status}`;
+  }
+
+  return compareTime(shedule, getTime(new Date())) < 0 ? `Прибув ${status}` : 'В польоті';
+};

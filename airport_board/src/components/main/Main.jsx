@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 import Search from '../search/Search.jsx';
 import Scoreboard from '../scoreboard/Scoreboard.jsx';
 
-import { flightsListSelector, inputValueSelector } from '../../flights.selectors';
-import * as flightsActions from '../../flights.actions';
+import { flightsListSelector, inputValueSelector } from '../../flights/flights.selectors';
+import * as flightsActions from '../../flights/flights.actions';
 
 const Main = ({ flightsList, getFlightsList, inputValueChanged, value }) => {
   return (

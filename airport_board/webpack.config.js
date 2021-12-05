@@ -2,6 +2,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = (env, argv) => {
@@ -10,7 +11,7 @@ module.exports = (env, argv) => {
     entry: './src/index.jsx',
     output: {
       filename: 'bundle.js',
-      publicPath: '/',
+      path: require('path').resolve(__dirname, 'build'),
     },
     module: {
       rules: [
@@ -37,6 +38,9 @@ module.exports = (env, argv) => {
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         template: './src/index.html',
+      }),
+      new CopyPlugin({
+        patterns: [{ from: '_redirects', to: '' }],
       }),
     ],
     devServer: {

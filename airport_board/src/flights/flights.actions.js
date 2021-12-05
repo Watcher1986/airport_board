@@ -1,4 +1,4 @@
-import { fetchFlights } from './flightsGateway';
+import fetchFlights from './flightsGateway';
 import { convertDataBody } from '../utils/common';
 
 export const FLIGHTS_LIST_RECIEVED = 'FLIGHTS_LIST_RECIEVED';
